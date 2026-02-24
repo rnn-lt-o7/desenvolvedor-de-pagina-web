@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESOFT_REVISAO</title>
+    <link rel="styleheet" href="style.css">
+</head>
+<style>
+    /* anotar tudo no caderno!!! */
+    body{
+        background-image: url(https://tse1.mm.bing.net/th/id/OIP.X8R7KeF2qc9__DSJFcmCXwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3);
+    }
+    h1{
+        color: rgb(255, 255, 255);
+        text-shadow: 
+        0 0 10px rgb(255, 0, 0), /* sombra do meio*/
+        0 0 20px rgb(255, 0, 0), /*sombra*/
+        0 0 40px rgb(255, 0, 0), /* sombra de fora ou ao redor*/
+        0 0 80px rgb(0, 0, 0); /* sobra opaca ou seja o fora por  completo */
+        text-align: center; 
+        font-size: 55px
+
+
+
+
+    }
+    .hero h1{
+        animation:aparecer 1.5s
+        ease forwards;
+        
+    }
+    @keyframes aparecer{
+        from{
+            opacity: 0;
+            transform: translatey(40px);
+        }
+        to{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    button{
+            
+            padding: 12px 28px;
+            border-radius: 30px;
+            background: green;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            color:white
+
+    }
+    button:hover{ /* editor do botao */
+        transform: translateY(-4px)
+        scale(1.05);
+        box-shadow: 0 10px 30px
+        rgba(0,0,0,4);
+    }
+    p{/*paragrafo*/
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white
+        
+    }
+.card {
+    background: linear-gradient(135deg, green, darkgreen); /* degradê moderno */
+    border-radius: 15px;       /* cantos arredondados */
+    padding: 20px;             /* espaço interno */
+    margin: 20px 0;            /* espaço entre os cards */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* sombra leve */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);      /* sobe ao passar o mouse */
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2); /* sombra mais forte */
+}
+</style>
+<body>
+<header class="hero">
+<h1 class="hero">ESOFT</h1>
+</header>
+<div class="blc card">
+    <p>
+    conteudo; 
+    </p>
+</div>
+     <button ><a href="c:\Users\Senac.DESKTOP-LFBH9P2\Documents\renan\renan_aula_prof.celino\css;htm-avançado\continuacao-ESOFT.html"></a>
+        ler mais 
+    </button>
+
+<div class="blc card">
+    <p>
+    conteudo, modulo 2;
+    </p>
+</div>
+     <button>
+        ler mais 
+    </button>
+<div class="blc card">
+    <p>
+    conteudo, modulo 3;
+    </p>
+
+</div>
+     <button>
+        ler mais 
+    </button>
+
+</body>
+</html>
